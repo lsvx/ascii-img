@@ -1,0 +1,16 @@
+<link rel="import" href="../polymer.html">
+<link rel="import" href="../core-ajax.html">
+
+<polymer-element name="ascii-img" attributes="src">
+    <template>
+        <core-ajax url="http://lsvx.com/ascii/{{src}}" auto response="{{response}}"></core-ajax>
+        <div id="div">{{response}}</div>
+    </template>
+    <script>
+        Polymer({
+            responseChanged: function() {
+                this.$.div.innerHTML = this.response;
+            }
+        });
+    </script>
+</polymer-element>

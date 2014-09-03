@@ -1,0 +1,27 @@
+{
+  "name": "ascii-img",
+  "version": "0.0.1",
+  "authors": [
+    "Lucas Serven <lserven@gmail.com>"
+  ],
+  "description": "ASCII Image Web Component",
+  "main": "ascii-img.html",
+  "keywords": [
+    "ascii",
+    "image",
+    "polymer",
+    "web-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-ajax": "Polymer/core-ajax#~0.4.0",
+    "polymer": "Polymer/polymer#~0.4.0"
+  }
+}
